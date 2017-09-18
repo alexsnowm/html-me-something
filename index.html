@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Alex Min's HTML Me Something</title>
+        <link type ="text/css" rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1><a id="top">A tour of my LEGO hobby</a></h1>
+        <header id="top">
+            <h1>A tour of my LEGO hobby</h1>
             <nav>
                 <ul>
                     <li><a href="#living_in_a_cave">Living In A Cave</a></li>
@@ -20,13 +22,13 @@
         </header>
 
         <main>
-            <article>
-                <h2><a id="in_the_beginning">In the beginning...</a></h2>
-                <p><q>Give a kid some LEGO bricks and they'll build for a day - or a couple days - but give a kid a camera and the Internet too, and they'll post what they built online for the rest of time.</q></p>
+            <article class="art_a">
+                <h1 id="in_the_beginning">In the beginning...</h1>
+                <p id="in_the_beginning_quote"><q>Give a kid some LEGO bricks and they'll build for a day - or a couple days - but give a kid a camera and the Internet too, and they'll post what they built online for the rest of time.</q></p>
             </article>
 
-            <article>
-                <h2><a id="living_in_a_cave">Living In A Cave</a></h2>
+            <article class="art_a">
+                <h2 id="living_in_a_cave">Living In A Cave</h2>
                 <p>I started out with a camera I found in my parents' house. It was the type that saved its pictures to a floppy disk. As can be seen, the picture quality was a bit grainy, and it was terrible at taking close-ups or macro photos.</p>
 
                 <figure>
@@ -36,7 +38,7 @@
             </article>
 
             <article>
-                <h2><a id="discovering_fire">Discovering Fire</a></h2>
+                <h2 id="discovering_fire">Discovering Fire</h2>
                 <p>So I begged my parents to get a proper DSLR camera.</p>
 
                 <figure>
@@ -51,7 +53,7 @@
             </article>
 
             <article>
-                <h2><a id="a_rising_civilization">A Rising Civilization</a></h2>
+                <h2 id="a_rising_civilization">A Rising Civilization</h2>
                 <p>I participated in online forums with other LEGO enthusiasts and started paying more attention to stuff that other people built, so my own building started getting better.</p>
 
                 <figure>
@@ -66,7 +68,7 @@
             </article>
 
             <article>
-                <h2><a id="the_renaissance">The Renaissance</a></h2>
+                <h2 id="the_renaissance">The Renaissance</h2>
                 <p>Things got larger and more advanced. And I started trying my hand at making stories with LEGO.</p>
                 
                 <figure>
@@ -91,7 +93,7 @@
             </article>
 
             <article>
-                <h2><a id="the_industrial_revolution">The Industrial Revolution</a></h2>
+                <h2 id="the_industrial_revolution">The Industrial Revolution</h2>
                 <p>Getting more detailed...</p>
 
                 <figure>
@@ -106,7 +108,7 @@
             </article>
 
             <article>
-                <h2><a id="the_space_race">The Space Race</a></h2>
+                <h2 id="the_space_race">The Space Race</h2>
                 <p>As my LEGO collection wasn't getting much larger, I tried using more and more unconventional techniques to stretch my collection and do some of my most complicated building yet. I also started experimenting with Photoshop to make neater-looking comics.</p>
 
                 <figure>
@@ -131,7 +133,7 @@
             </article>
 
             <article>
-                <h2><a id="modern_times">Modern Times</a></h2>
+                <h2 id="modern_times">Modern Times</h2>
                 <p>I enter the era of the moving image and start attempting stop-motion animation with LEGO. What will the future hold?</p>
 
                 <figure>
@@ -149,10 +151,8 @@
         </main>
         
         <footer>
-            LEGO&reg; is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.
-            <br>
-            &copy; 2017 Alex Min
-            <hr>
+            <p>LEGO&reg; is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</p>
+            <p>&copy; 2017 Alex Min</p>
             <a href="#top">Back to top</a>
         </footer>
     </body>
